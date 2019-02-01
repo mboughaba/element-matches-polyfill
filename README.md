@@ -17,6 +17,12 @@ require('element-matches-polyfill');
 import 'element-matches-polyfill';
 ```
 
+## Install
+
+```shell
+npm install --save element-matches-polyfill
+```
+
 ## Usage
 
 ```HTML
