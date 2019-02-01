@@ -1,0 +1,27 @@
+{
+  "name": "element-matches-polyfill",
+  "version": "1.0.0",
+  "description": "Element.matches Polyfill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mboughaba/element-matches-polyfill.git"
+  },
+  "keywords": [
+    "Element",
+    "matches",
+    "polyfill",
+    "mdn",
+    "ie",
+    "edge"
+  ],
+  "author": "mboughaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mboughaba/element-matches-polyfill/issues"
+  },
+  "homepage": "https://github.com/mboughaba/element-matches-polyfill#readme"
+}
