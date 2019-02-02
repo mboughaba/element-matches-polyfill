@@ -7,6 +7,10 @@ Provides a polyfill for [Element.forEach()](https://developer.mozilla.org/en-US/
 
 See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches) for more information.
 
+### Reduced scope
+
+I personally use: https://github.com/jelmerdemaat/element-matches as I don't need to support all browsers.
+
 ## Import
 
 ```JavaScript
