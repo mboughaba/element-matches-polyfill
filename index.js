@@ -6,9 +6,9 @@ if (!Element.prototype.matches) {
     Element.prototype.oMatchesSelector ||
     Element.prototype.webkitMatchesSelector ||
     function(s) {
-      var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+      var matches = (this.parentNode || this.document || this.ownerDocument).querySelectorAll(s),
         i = matches.length;
       while (--i >= 0 && matches.item(i) !== this) {}
-      return i > -1;
-    };
+      return i > -1
+    }
 }
